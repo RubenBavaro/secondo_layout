@@ -1,5 +1,8 @@
-.articleNumber{
+.ArticleNumber p{
     font-size: 70px;
     line-height: 113px;
     color: #707070;
+    padding-bottom: 8px;
 }
+
+ 

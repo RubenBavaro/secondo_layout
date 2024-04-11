@@ -1,7 +1,11 @@
-@import "commons.css";
-@import "img.css";
 @import "article_title.css";
-@import "Box1.css";
 @import "article1.css";
+@import "ArticleNumber.css";
+@import "ArticleText.css";
+@import "Box1.css";
+@import "Box2.css";
+@import "commons.css";
 @import "contact.css";
 @import "contact2.css";
+@import "img.css";
+@import "linea.css";
