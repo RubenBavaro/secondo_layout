@@ -14,6 +14,6 @@
     display: block;
 }
 
-.listComponent ul{
-    display: none;
+.listComponent ol{
+   list-style: none;
 }
