@@ -1,0 +1,29 @@
+.button a:link,
+.button a:visited,
+.button a:hover
+.button a:active{
+    display: block;
+    font-size: 35px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    padding: 14px 33px;
+    position: relative;
+    line-height: 50px;
+    width: 308px;
+    height: 78px;
+}
+
+.button a::after{
+    content: "";
+    background-image: url("../img/arrow.svg");
+    width: 28px;
+    display: block;
+    height: 34px;
+    background-size: 28px 34px;
+    position: absolute;
+    right: 31px;
+    top: 50%;
+    transform: translateY(-50%)
+}

@@ -5,7 +5,15 @@
 @import "Box1.css";
 @import "Box2.css";
 @import "commons.css";
+@import "button.css";
 @import "contact.css";
-@import "contact2.css";
 @import "img.css";
 @import "linea.css";
+
+.listComponent li{
+    display: block;
+}
+
+.listComponent ul{
+    display: none;
+}
